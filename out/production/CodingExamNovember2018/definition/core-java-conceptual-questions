@@ -1,14 +1,27 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. The programming language is an artificial language designed to express computations or algorithms that can be performed by a computer.
+
 What jdk contains or composed of and define each components?
-A.
+A. Jdk contains a variety of tools and Java development information. A list of the main components of Jdk:
+    The Runtime Interpreter
+    The Compiler
+    The Applet Viewer
+    The Debugger
+    The Class File Disassembler
+    The Header and Stub File Generator
+    The Documentation Generator
+    Applet Demos
+    ApI Source Dode
+
 What is IDE?
-A.
+A.  An integrated development environment.
 What are the IDEs available in the market to support java?
+A. Eclipse, NetBeans, IntellijIDEA.
 Explain the entire java life cycle.
 what is class?
+
 What is object?
 What is the entry point of an application?
 Why main is static?
@@ -21,13 +34,17 @@ What is OOP ? Define each feature of java OOP.
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
+a. yes
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
+A. A constructor is a method of a class or structure that initializes an object of that type.
+
 Can we have multiple constructors in a class?
+A. yes
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
