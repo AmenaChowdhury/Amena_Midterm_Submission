@@ -5,9 +5,7 @@ import databases.ConnectToSqlDB;
 import java.util.List;
 import java.util.Random;
 
-/*
- *Created by mrahman on 04/02/2018.
- */
+
 public class Numbers {
 
 	/*
@@ -42,11 +40,7 @@ public class Numbers {
 
 		//By following above, Continue for rest of the Sorting Algorithm....
 
-
-
-
 		//Come to conclusion about which Sorting Algo is better in given data set.
-
 	}
 
 	public static void storeRandomNumbers(int [] num){
