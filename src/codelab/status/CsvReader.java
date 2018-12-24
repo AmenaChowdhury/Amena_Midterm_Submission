@@ -14,7 +14,7 @@ public class CsvReader {
          You need to find the average score of the class.
          */
 
-        String csvFilePath = System.getProperty("user.dir") + "/src/codelab/status/roster-file-12-23-2018.csv";
+        String csvFilePath = System.getProperty("user.dir") + "/src/codelab/status/codelab-roster-file.csv";
         String line = "";
         String cvsSplitBy = ",";
         BufferedReader br = null;
@@ -42,19 +42,19 @@ public class CsvReader {
             if (student.getNumberOfExercisesSolved()>=600) {
                 System.out.print("You did pretty good-->");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            } else if (student.getNumberOfExercisesSolved()>=500 && student.getNumberOfExercisesSolved()<600) {
+            } else if (student.getNumberOfExercisesSolved()>500 && student.getNumberOfExercisesSolved()<600) {
                 System.out.print("You could do little better-->");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            }else if (student.getNumberOfExercisesSolved()>=400 && student.getNumberOfExercisesSolved()<500) {
+            }else if (student.getNumberOfExercisesSolved()>400 && student.getNumberOfExercisesSolved()<500) {
                 System.out.print("You could do better-->");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            }else if (student.getNumberOfExercisesSolved()>=300&& student.getNumberOfExercisesSolved()<400) {
+            }else if (student.getNumberOfExercisesSolved()>300&& student.getNumberOfExercisesSolved()<400) {
                 System.out.print("You should have done more--> ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            }else if (student.getNumberOfExercisesSolved()>=200&&student.getNumberOfExercisesSolved()<300) {
+            }else if (student.getNumberOfExercisesSolved()>200&&student.getNumberOfExercisesSolved()<300) {
                 System.out.print("You haven't done enough--> ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            }else if (student.getNumberOfExercisesSolved()>=100&&student.getNumberOfExercisesSolved()<200) {
+            }else if (student.getNumberOfExercisesSolved()>100&&student.getNumberOfExercisesSolved()<200) {
                 System.out.print("You did not take this course seriously--> ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
             }else if (student.getNumberOfExercisesSolved()<100) {
