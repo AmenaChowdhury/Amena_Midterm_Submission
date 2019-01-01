@@ -12,7 +12,9 @@ public class Student implements Serializable {
 	public String score;
 	public String id;
 
-	public Student(){}
+	public Student(){
+
+	}
 
 	public Student(String firstName, String lastName, String score, String id) {
 		this.firstName = firstName;
@@ -24,7 +26,8 @@ public class Student implements Serializable {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
+	public void setFirstName(String firstName)
+	{
 		this.firstName = firstName;
 	}
 
@@ -37,6 +40,7 @@ public class Student implements Serializable {
 	}
 
 	public String getScore() {
+
 		return score;
 	}
 
@@ -45,16 +49,19 @@ public class Student implements Serializable {
 	}
 
 	public String getId() {
+
 		return id;
 	}
 
 	public void setId(String id) {
+
 		this.id = id;
 	}
 
 	
 	@Override
 	public String toString(){
+
 		return "Student" + "("+"id= "+id+")"+ firstName+" "+lastName+" "+" Grade = "+score;
 	}
 	

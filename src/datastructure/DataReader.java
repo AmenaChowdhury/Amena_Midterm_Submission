@@ -6,25 +6,28 @@ import java.io.FileReader;
 public class DataReader {
 
 	public static void main(String[] args) {
-		FileReader fr=null;
-		BufferedReader br=null;
+		FileReader fr = null;
+		BufferedReader br = null;
 		String textFile = "C:\\Users\\User\\Desktop\\AmenaMidtermExamPnt\\MidtermNovember2018\\src\\data\\self-driving-car";
+
 		try{
-			fr=new FileReader(textFile);
-			System.out.println("your File has been found.");
+			fr = new FileReader(textFile);
+			System.out.println("File has found.");
 		}catch(Exception e){
-			System.out.println("File b did not found");
+			System.out.println("File is not found");
 		}
 
-		try{ br=new BufferedReader(fr);
-			String data="";
-			while((data=br.readLine())!=null){
+		try{ br = new BufferedReader(fr);
+			String data ="";
+			while((data = br.readLine())!= null){
 				System.out.println(data);
 			}
 
 		}catch (Exception ex){
 			System.out.println("Your data is not there .");
 		}
+
+
 		/*
 		 * User API to read the below textFile and print to console.
 		 * Use BufferedReader class.

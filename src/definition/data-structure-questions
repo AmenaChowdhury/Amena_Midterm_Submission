@@ -45,13 +45,13 @@ A.
 node. Each node has data and reference to the next node. Last node has reference to null.
 
 How is an Array different from Linked List?
-A.  1. An array element is having index number, but a node is having reference to next node.
-        2. In array each element is independent, does not have any connection to the other element
-         on the other hand in linked list each node are connected by previous node.
-        3. In Linked list, location or address of elements is stored in the link part of previous
+A.   a.An array element is having index number, but a node is having reference to next node.
+     In array each element is independent, does not have any connection to the other element
+     on the other hand in linked list each node are connected by previous node.
+     b.In Linked list, location or address of elements is stored in the link part of previous
          element/node. In array, no pointers are used like linked list so no need of extra space
          in memory for pointer.
-        4. Linked list consumed extra memory as the link location need to be saved in in the linked
+       Linked list consumed extra memory as the link location need to be saved in in the linked
         part of the previous elements in case of array it is not required.
 what is queue?
 Answer: It is a linear data structure where elements can be accessed  ob the basis of FIFO.
