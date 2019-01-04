@@ -7,13 +7,13 @@ public class Permutation {
         /*
          * Permutation of String "ABC" is "ABC" "BAC" "BCA" "ACB" "CAB" "CBA".
          * Write Java program to compute all Permutation of a String
-         *
          */
         permutation("", "efgh");
     }
     public static void permutation(String prefix, String sg){
         int n = sg.length();
         if(n==0){
+
             System.out.println(prefix);
         }else{
             for(int i=0; i < n; i++){

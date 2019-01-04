@@ -36,10 +36,8 @@ public class DuplicateWord {
             if (!set.add(word)) {
 
                 duplicates.add(word);
-
             }
         }
-
         for (String count : arraylist) {
             if (Collections.frequency(arraylist, count) > 1) {
                 System.out.println("Number of occurrence of: " + count + " is: " + Collections.frequency(arraylist, count));

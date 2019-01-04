@@ -20,7 +20,6 @@ public class DetermineLargestWord {
             }
         }
         System.out.println("Largest word: "+largeValue+" length: "+largest);
-
     }
 
     public static Map<Integer, String> findTheLargestWord(String wordGiven){

@@ -14,6 +14,7 @@ public class Palindrome {
         checkPalindrome("Wow");
     }
     public static void checkPalindrome(String word){
+
         String actual = word.toLowerCase();
         String reverse = "";
 
