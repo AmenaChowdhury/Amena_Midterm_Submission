@@ -177,15 +177,16 @@ What is compile time and run time?
 The compilation process is known as compile time. After compilation process the application runs it is known as run time
 
 What is heap?
-The heap is the runtime data area from which memory for all class instances and arrays is allocated.
+A:The heap is the runtime data area from which memory for all class instances and arrays is allocated.
 
 How java manage it's memory?
-Java maintains a stack to store all object references whichever are being in use by program.
+A:Java maintains a stack to store all object references whichever are being in use by program.
 Objects actually stores in memory heap and their references are maintained on memory stack.
 
 
 What is the difference between String, StringBuffer and StringBuilder?
 
+A:
 String: is immutable ( once created can not be changed )object  .
  The object created as a String is stored in the Constant String Pool.
 StringBuffer
@@ -228,46 +229,46 @@ Enum is a base class for all Java enumeration types, but it’s not necessary to
 you could define enum using enum keyword.
 
 What is Iterator?
-In Java, an iterator is an interface and is implemented by all collection classes
+A:In Java, an iterator is an interface and is implemented by all collection classes
 Which one will take more memory, an int or Integer?
 integer will take more memory.
 
 Why is String Immutable in Java?
-A. If string is not immutable, someone can change the value of String and change the host URL and password
+A: If string is not immutable, someone can change the value of String and change the host URL and password
 and gain access to the system.  As java.lang.String is final no one can override String Class. String are useful
 in loading classes.
 
 What is constructor chaining in Java?
-Constructor chaining is the process of calling one constructor from another constructor with
+A: Constructor chaining is the process of calling one constructor from another constructor with
 respect to current object. Constructor chaining occurs through inheritance.
 
 The difference between Serial and Parallel Garbage Collector?
-Serial Collector is mostly designed for single-threaded en
+A:  Serial Collector is mostly designed for single-threaded en
 
 What is JIT stands for?
-Just In Time.
+A: Just In Time.
 
 Explain Java Heap space and Garbage collection?
-Garbage Collection. Garbage collection is the process of freeing space in the heap or the nursery for allocation of new objects. This section describes the garbage collection in the JRockit JVM.
+A:  Garbage Collection. Garbage collection is the process of freeing space in the heap or the nursery for allocation of new objects. This section describes the garbage collection in the JRockit JVM.
 
 Can you guarantee the garbage collection process?
-No
+A: No
 
 What is the difference between stack and heap in Java?
-Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs. -Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects. 
+A:Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs. -Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects. 
 
 What is reflection in java and why is it useful?
-Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.
+A: Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.
 The required classes for reflection are provided under java.lang.reflect package.
 Reflection gives us information about the class to which an object belongs and also the methods of that class which can be executed by using the object.
 Through reflection we can invoke methods at runtime irrespective of the access specifier used with them.
 
 what is multithreading in java?
-Multithreading in java is a process of executing multiple threads simultaneously. Thread is basically a lightweight sub-process, a smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
+A: Multithreading in java is a process of executing multiple threads simultaneously. Thread is basically a lightweight sub-process, a smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
 
 
 What is the use of synchronization in Java?
-So there is a need to synchronize the action of multiple threads and make sure that only one thread can access the resource at a given point in time. This is implemented using a concept called monitors. Each object in Java is associated with a monitor, which a thread can lock or unlock.
+A: So there is a need to synchronize the action of multiple threads and make sure that only one thread can access the resource at a given point in time. This is implemented using a concept called monitors. Each object in Java is associated with a monitor, which a thread can lock or unlock.
 
 What is Framework?
 While frameworks generally refer to broad software development platforms, the term can also be used to describe a specific framework within a larger programming environment. For example, multiple Java frameworks, such as Spring, ZK, and the Java Collections Framework (JCF) can be used to create Java programs
