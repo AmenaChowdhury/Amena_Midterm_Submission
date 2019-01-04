@@ -67,6 +67,6 @@ public class CsvReader {
         for (Trainee tr: roster) {
             totalSolved+=tr.getNumberOfExercisesSolved();
         }
-        System.out.println("\nAverage Number of Codelab exercise solved of the class : "+totalSolved/numOfTrainee);
+        System.out.println("\nAverage Number of Codelab problems solved of the class : "+totalSolved/numOfTrainee);
     }
 }
