@@ -19,28 +19,58 @@ public class Numbers {
 	 */
 
 	public static void main(String[] args) throws Exception {
-		
 		int [] num = new int[1000000];
 		storeRandomNumbers(num);
-		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-		//Selection Sort
-		Sort algo = new Sort();
-		algo.selectionSort(num);
-		long selectionSortExecutionTime = algo.executionTime;
-		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
-        List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
-        printValue(numbers);
+//	ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+//	connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
+//	List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
+//	printValue(numbers);
+		Sort algorithm = new Sort();
 		int n = num.length;
+		//**** Selection Sort ****
+		algorithm.selectionSort(num);
+		long selectionSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of "+ num.length + " Numbers in Selection Sort: " + selectionSortExecutionTime + " milli sec");
+
+		//**** Insertion Sort ****
 		randomize (num, n);
-		//Insertion Sort
-		algo.insertionSort(num);
-		long insertionSortExecutionTime = algo.executionTime;
-		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
+		algorithm.insertionSort(num);
+		long insertionSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " Numbers in Insertion Sort: " + insertionSortExecutionTime + " milli sec");
 
 		//By following above, Continue for rest of the Sorting Algorithm....
-
 		//Come to conclusion about which Sorting Algo is better in given data set.
+
+		//**** bubble sort ****
+		randomize (num, n);
+		algorithm.bubbleSort(num);
+		long bubbleSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " Numbers in Bubble Sort: " + bubbleSortExecutionTime + " milli sec");
+
+		//**** merge sort ****
+		randomize (num, n);
+		algorithm.mergeSort(num,0,n-1);
+		long mergeSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " Numbers in Merge Sort: " + mergeSortExecutionTime + " milli sec");
+
+		//**** quick sort ****
+		randomize (num, n);
+		algorithm.quickSort(num,0,n-1);
+		long quickSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " Numbers in Quick Sort: " + quickSortExecutionTime + " milli sec");
+
+		//**** heap sort ****
+		randomize (num, n);
+		algorithm.heapSort(num,n);
+		int maxValueForBucketSort = num[num.length-1];
+		long heapSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " Numbers in Heap Sort: " + heapSortExecutionTime + " milli sec");
+
+		//**** bucket sort ****
+		randomize (num, n);
+		algorithm.bucketSort(num,maxValueForBucketSort);
+		long bucketSortExecutionTime = algorithm.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bucket Sort take: " + bucketSortExecutionTime + " milli sec");
 	}
 
 	public static void storeRandomNumbers(int [] num){
@@ -49,9 +79,7 @@ public class Numbers {
 			num[i] = rand.nextInt(1000000);
 		}
 	}
-
-	public static void randomize( int arr[], int n)
-	{
+	public static void randomize( int arr[], int n) {
 		Random r = new Random();
 		// Start from the last element and swap one by one. We don't
 		// need to run for the first element that's why i > 0
