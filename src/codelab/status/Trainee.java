@@ -6,9 +6,9 @@ public class Trainee implements Comparable<Trainee> {
     private String lastName;
     private int numberOfExercisesSolved;
 
-    public Trainee(){}
+    public Trainee(){} //Default Constructor
 
-    public Trainee(String firstName, String lastName, int numberOfExercisesSolved) {
+    public Trainee(String firstName, String lastName, int numberOfExercisesSolved) { // Constructor
         this.firstName = firstName;
         this.lastName = lastName;
         this.numberOfExercisesSolved = numberOfExercisesSolved;
