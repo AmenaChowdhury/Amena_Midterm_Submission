@@ -26,7 +26,4 @@ public class Anagram {
         return Arrays.equals(str1c, str2c);
 
     }
-
-
-
 }

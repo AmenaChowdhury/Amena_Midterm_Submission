@@ -15,28 +15,22 @@ public class DuplicateWord {
          */
 
         String st = "Bangladesh is beautiful country. Bangladesh is green. Bangladeshi is populated country.";
-
-
         Set<String> duplicates = duplicateWords(st);
         System.out.println("input : " + st);
         System.out.println("output : " + duplicates);
     }
 
     public static Set<String> duplicateWords(String input) {
-
         if (input == null || input.isEmpty()) {
             return Collections.emptySet();
         }
         Set<String> duplicates = new HashSet<>();
-
         String[] words = input.split(" ");
         double length = (double) input.length() / words.length;
         System.out.println("Average length of words: " + length);
 
         Set<String> set = new HashSet<>();
-
         ArrayList<String> arraylist = new ArrayList<String>();
-
         for (String word : words) {
             arraylist.add(word);
             if (!set.add(word)) {

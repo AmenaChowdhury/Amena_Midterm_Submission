@@ -220,6 +220,7 @@ public class EmployeeInfo extends AllDept implements Employee {
 		}
 
 		public static String convertDate(String date) {
+
 			String[] extractMonth = date.split(",");
 			String givenMonth = extractMonth[0];
 			int monthDate = whichMonth(givenMonth);
@@ -230,6 +231,7 @@ public class EmployeeInfo extends AllDept implements Employee {
 		public static int whichMonth(String givenMonth) {
 			Months months = Months.valueOf(givenMonth);
 			int date = 0;
+
 			switch (months) {
 				case January:
 					date = 1;

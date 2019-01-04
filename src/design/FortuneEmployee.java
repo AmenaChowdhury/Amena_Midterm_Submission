@@ -28,8 +28,6 @@ public class FortuneEmployee {
 		EmployeeInfo.calculateEmployeePension();
 		System.out.println("");
 
-
-
 		EmployeeInfo emp2 = new EmployeeInfo("Peter Pan", 2, 4000, "C");
 		System.out.println("Employee emp2\n"+emp2.toString());
 		emp2.hourlySalary();
