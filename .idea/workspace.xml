@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="31b5026c-d3cc-4ba3-9ce7-c43334c5b859" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/codelab/status/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/codelab/status/CsvReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/codelab/status/roster-file-12-23-2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/codelab/status/roster-file-12-23-2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/data/self-driving-car" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/data/self-driving-car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/definition/data-structure-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="273">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="156">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -92,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codelab/status/CsvReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state relative-caret-position="-442">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#699#708#0" expanded="true" />
@@ -208,8 +211,8 @@
         <option value="$PROJECT_DIR$/src/definition/data-structure-questions" />
         <option value="$PROJECT_DIR$/src/data/self-driving-car" />
         <option value="$PROJECT_DIR$/src/codelab/status/Trainee.java" />
-        <option value="$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" />
         <option value="$PROJECT_DIR$/src/codelab/status/CsvReader.java" />
+        <option value="$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" />
       </list>
     </option>
   </component>
@@ -315,7 +318,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546580114013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546580791772" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NewVersionSQL_Dependency/mysql-connector-java-8.0.13 (1).jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -340,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FortuneEmployee">
+  <component name="RunManager" selected="Application.CsvReader">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -455,9 +458,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.FortuneEmployee" />
         <item itemvalue="Application.ConnectToSqlDB" />
-        <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.JsonReaderUtil" />
         <item itemvalue="Application.CnnAPI" />
       </list>
@@ -480,7 +483,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,12 +492,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39814815" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39814815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49878544" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49878544" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.34444445" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50121456" side_tool="true" weight="0.37592593" />
@@ -1015,25 +1018,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="273">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codelab/status/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+        <state relative-caret-position="-442">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#699#708#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="156">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
   </component>
